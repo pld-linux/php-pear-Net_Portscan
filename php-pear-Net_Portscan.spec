@@ -28,7 +28,7 @@ In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Pakiet Net_Portscan pozwala na podstawowe skany portów przy u¿yciu
-PHP. Umo¿liwia sprawdzanie pojedyñczych portów, jak i ca³ych zakresów
+PHP. Umo¿liwia sprawdzanie pojedynczych portów, jak i ca³ych zakresów
 portów na danej maszynie.
 
 Ta klasa ma w PEAR status: %{_status}.
