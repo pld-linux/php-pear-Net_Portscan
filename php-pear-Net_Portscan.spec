@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       Portscan
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - Portscanner utilities
-Summary(pl):	%{_class}_%{_subclass} - Narzêdzia skanuj±ce porty
+Summary:	%{_pearname} - Portscanner utilities
+Summary(pl):	%{_pearname} - Narzêdzia skanuj±ce porty
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	1
