@@ -24,7 +24,7 @@ The Net_Portscan package allows one to perform basic portscanning
 functions with PHP. It supports checking an individual port or
 checking a whole range of ports on a machine.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Pakiet Net_Portscan pozwala na podstawowe skany portów przy u¿yciu
