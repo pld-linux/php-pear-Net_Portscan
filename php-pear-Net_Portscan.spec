@@ -5,11 +5,11 @@
 Summary:	%{_pearname} - Portscanner utilities
 Summary(pl):	%{_pearname} - Narzêdzia skanuj±ce porty
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
-Release:	2
+Version:	1.0.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	c45e0c88a077e67e0a222ff3a96b9cdc
+# Source0-md5:	37f71b85c3f9a4acff42d019b6d23cd3
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
