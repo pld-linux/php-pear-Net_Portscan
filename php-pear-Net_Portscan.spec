@@ -1,7 +1,9 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          Net
 %define         _subclass       Portscan
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - Portscanner utilities
 Summary(pl):	%{_pearname} - Narzêdzia skanuj±ce porty
 Name:		php-pear-%{_pearname}
@@ -9,8 +11,8 @@ Version:	1.0.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	37f71b85c3f9a4acff42d019b6d23cd3
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	37f71b85c3f9a4acff42d019b6d23cd3
 URL:		http://pear.php.net/package/Net_Portscan/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -22,10 +24,14 @@ The Net_Portscan package allows one to perform basic portscanning
 functions with PHP. It supports checking an individual port or
 checking a whole range of ports on a machine.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Pakiet Net_Portscan pozwala na podstawowe skany portów przy u¿yciu
 PHP. Umo¿liwia sprawdzanie pojedyñczych portów, jak i ca³ych zakresów
 portów na danej maszynie.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
