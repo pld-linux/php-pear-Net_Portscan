@@ -1,11 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Portscan
+%define		_class		Net
+%define		_subclass	Portscan
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Portscanner utilities
-Summary(pl):	%{_pearname} - Narzêdzia skanuj±ce porty
+Summary:	%{_pearname} - portscanner utilities
+Summary(pl):	%{_pearname} - narzêdzia skanuj±ce porty
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
