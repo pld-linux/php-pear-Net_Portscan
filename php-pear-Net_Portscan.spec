@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - narzêdzia skanuj±ce porty
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	3
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
