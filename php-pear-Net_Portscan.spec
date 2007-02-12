@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - portscanner utilities
-Summary(pl):	%{_pearname} - narz阣zia skanuj眂e porty
+Summary(pl.UTF-8):   %{_pearname} - narz臋dzia skanuj膮ce porty
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	3
@@ -29,16 +29,16 @@ checking a whole range of ports on a machine.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet Net_Portscan pozwala na podstawowe skany port體 przy u縴ciu
-PHP. Umo縧iwia sprawdzanie pojedynczych port體, jak i ca硑ch zakres體
-port體 na danej maszynie.
+%description -l pl.UTF-8
+Pakiet Net_Portscan pozwala na podstawowe skany port贸w przy u偶yciu
+PHP. Umo偶liwia sprawdzanie pojedynczych port贸w, jak i ca艂ych zakres贸w
+port贸w na danej maszynie.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -47,7 +47,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
