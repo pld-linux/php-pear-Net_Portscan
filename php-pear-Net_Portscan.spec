@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - portscanner utilities
-Summary(pl.UTF-8):   %{_pearname} - narzędzia skanujące porty
+Summary(pl.UTF-8):	%{_pearname} - narzędzia skanujące porty
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	3
@@ -38,7 +38,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
