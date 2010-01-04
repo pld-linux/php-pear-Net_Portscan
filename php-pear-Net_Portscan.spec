@@ -7,13 +7,13 @@
 Summary:	%{_pearname} - portscanner utilities
 Summary(pl.UTF-8):	%{_pearname} - narzędzia skanujące porty
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
-Release:	4
+Version:	1.0.3
+Release:	1
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	37f71b85c3f9a4acff42d019b6d23cd3
+# Source0-md5:	e7a7eeb5c12fe70eef674ee927ba1208
 URL:		http://pear.php.net/package/Net_Portscan/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
